@@ -15,4 +15,5 @@ module "server" {
   ingress_cidr = "${var.ingress_cidr}"
   public_key   = "${var.public_key}"
   private_key  = "${var.private_key}"
+  instance_type = "t2.nano"
 }
